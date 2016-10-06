@@ -1,15 +1,14 @@
 package com.equipealpha.univagas;
 
-import android.app.usage.UsageEvents;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class RegistroActivity extends AppCompatActivity {
+public class DadosEditActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registro_activity);
+        setContentView(R.layout.activity_dados_edit);
     }
 
 }

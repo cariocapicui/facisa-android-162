@@ -1,0 +1,13 @@
+package com.equipealpha.univagas;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class SenhaEditActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_senha_edit);
+    }
+}
