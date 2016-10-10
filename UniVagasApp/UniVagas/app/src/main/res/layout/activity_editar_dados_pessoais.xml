@@ -2,14 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_registro_aactivity"
+    android:id="@+id/activity_registro"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.equipealpha.univagas.DadosEditActivity">
+    tools:context="com.equipealpha.univagas.EditarDadosPessoaisActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -24,16 +24,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/ic_menu_manage"
-                android:id="@+id/imageView"
+                android:id="@+id/imgEditDPessoal"
                 android:layout_weight="0.23" />
 
             <TextView
-                android:text="Atualizar Dados Pessoais"
+                android:text="Editar Dados Pessoais"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/tvTitulo"
+                android:id="@+id/lblTituloDPessoal"
                 android:textSize="30sp"
-                android:layout_weight="0.23" />
+                android:layout_weight="0.23"
+                android:textAlignment="center" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -45,7 +46,7 @@
                 android:text="Nome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/tvNome"
+                android:id="@+id/lblNome"
                 android:layout_weight="0.23" />
 
             <EditText
@@ -53,15 +54,15 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/etNome"
+                android:id="@+id/txtNome"
                 android:singleLine="true"
                 android:layout_weight="0.23" />
 
             <TextView
-                android:text="Endereco"
+                android:text="Usuário"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/tvEndereco"
+                android:id="@+id/lblUsuario"
                 android:layout_weight="0.23" />
 
             <EditText
@@ -69,29 +70,14 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/etEndereco"
-                android:layout_weight="0.23" />
-
-            <TextView
-                android:text="Telefone"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/tvTelefone"
-                android:layout_weight="0.23" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:ems="10"
-                android:id="@+id/etTelefone"
+                android:id="@+id/txtUsuario"
                 android:layout_weight="0.23" />
 
             <TextView
                 android:text="E-Mail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/tvEmail"
+                android:id="@+id/lblEmail"
                 android:layout_weight="0.23" />
 
             <EditText
@@ -99,14 +85,14 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/etEmail"
+                android:id="@+id/txtEmail"
                 android:layout_weight="0.23" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/tvSocial"
-                android:text="RedeSocial"
+                android:id="@+id/lblSocial"
+                android:text="LinkdIn"
                 android:layout_weight="0.23" />
 
             <EditText
@@ -114,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/etSocial"
+                android:id="@+id/txtSocial"
                 android:layout_weight="0.23" />
 
             <TextView
@@ -126,14 +112,14 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="0.23">
 
                 <Button
                     android:text="Voltar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/btVoltar"
+                    android:id="@+id/btnVoltar"
                     android:layout_weight="1"
                     android:backgroundTint="@android:color/holo_red_dark" />
 
@@ -141,7 +127,7 @@
                     android:text="Salvar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/btSalvar"
+                    android:id="@+id/btnSalvar"
                     android:layout_weight="1"
                     android:backgroundTint="@android:color/holo_blue_dark" />
             </LinearLayout>

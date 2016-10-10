@@ -6,30 +6,28 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class meus_dados extends AppCompatActivity {
+public class MeusDadosActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meus_dados);
 
-        Button btDadosEdit = (Button) findViewById(R.id.btDados);
-        Button btSenhaEdit = (Button) findViewById(R.id.btSenha);
+        Button btnDadosEdit = (Button) findViewById(R.id.btnDados);
+        Button btnSenhaEdit = (Button) findViewById(R.id.btnSenha);
 
-        btDadosEdit.setOnClickListener(new View.OnClickListener() {
+        btnDadosEdit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent it = new Intent(meus_dados.this, DadosEditActivity.class);
+                Intent it = new Intent(MeusDadosActivity.this, EditarDadosPessoaisActivity.class);
                 startActivity(it);
             }
         });
 
-        btSenhaEdit.setOnClickListener(new View.OnClickListener() {
+        btnSenhaEdit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent it = new Intent(meus_dados.this, SenhaEditActivity.class);
+                Intent it = new Intent(MeusDadosActivity.this, EditarSenhaActivity.class);
                 startActivity(it);
             }
         });
-
     }
-
 }
