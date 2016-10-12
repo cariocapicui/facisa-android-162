@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">UniVagas</string>
+    <string name="label_CriarConta">Criar Conta</string>
+    <string name="label_EditarDadosPessoais">Editar Dados</string>
+    <string name="label_EditarSenha">Editar Senha</string>
+    <string name="label_EscolherConta">Escolher Conta</string>
+    <string name="label_MeusDados">Meus Dados</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dados_pessoais">DadosPessoaisActivity</string>
+    <string name="userName">Usuário</string>
+    <string name="userPassword">Senha</string>
+    <string name="userNameHint">Informe seu login</string>
+    <string name="userPasswordHint">Informe sua senha</string>
+    <string name="projectName">FaciVagas</string>
+    <string name="areaName">Área de Login</string>
+    <string name="btnLogin">Login</string>
+    <string name="labelInfo">Ainda não possui uma conta?</string>
+    <string name="labelRegistrar"><u>Crie uma Agora</u></string>
+
+</resources>
