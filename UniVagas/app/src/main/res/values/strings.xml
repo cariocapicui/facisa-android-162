@@ -22,4 +22,13 @@
     <string name="labelInfo">Ainda não possui uma conta?</string>
     <string name="labelRegistrar"><u>Crie uma Agora</u></string>
 
+    <string name="label_Name">Yuri Clark Fernandes</string>
+    <string name="label_Email">yuriclark@protonmail.com</string>
+
+    <string name="label_oportunidade">Mural de Oportunidades</string>
+    <string name="label_meuCurriculo">Meu Currículo</string>
+    <string name="label_configuracoes">Configurações</string>
+    <string name="label_minhasOportunidades">Minhas Oportunidades</string>
+    <string name="label_sair">Sair</string>
+
 </resources>
